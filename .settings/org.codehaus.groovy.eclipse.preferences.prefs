@@ -1,0 +1,4 @@
+#Sun Dec 07 11:09:44 GMT 2008
+eclipse.preferences.version=1
+groovy.compiler.output.path=web-app/WEB-INF/classes
+groovy.dont.check.package.vs.src.path=true

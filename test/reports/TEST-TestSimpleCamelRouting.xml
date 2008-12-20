@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="count-zero" name="TestSimpleCamelRouting" tests="1" time="2.155" timestamp="2008-12-12T22:24:00">
+  <properties />
+  <testcase classname="TestSimpleCamelRouting" name="testShouldRouteFromAtoB" time="2.061" />
+  <system-out><![CDATA[--Output from testShouldRouteFromAtoB--
+
+]]></system-out>
+  <system-err><![CDATA[--Output from testShouldRouteFromAtoB--
+2008-12-12 22:24:01.883::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+]]></system-err>
+</testsuite>
