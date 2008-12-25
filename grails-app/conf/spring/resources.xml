@@ -6,10 +6,11 @@
          http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
          http://activemq.apache.org/camel/schema/spring
-http://activemq.apache.org/camel/schema/spring/camel-spring.xsd">
+			classpath:camel-spring.xsd">
 
-	<camel:route>
-		<camel:from uri="abc" />
+	<!--camel:route>
+		<camel:from uri="activemq:queue.in" />
+		<camel:to uri="activemq:queue.one" />
 		<camel:choice>
 			<camel:when>
 				<camel:groovy></camel:groovy>
@@ -19,6 +20,6 @@ http://activemq.apache.org/camel/schema/spring/camel-spring.xsd">
 				<camel:to uri="xqp" />
 			</camel:otherwise>
 		</camel:choice>
-	</camel:route>
+	</camel:route-->
 
 </beans>
