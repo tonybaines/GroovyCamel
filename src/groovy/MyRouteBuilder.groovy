@@ -1,9 +1,13 @@
-import org.apache.camel.builder.*
+import org.apache.camel.language.groovy.GroovyRouteBuilder
 
-public class MyRouteBuilder extends RouteBuilder {
+import static org.apache.camel.builder.script.ScriptBuilder.*;
+
+public class MyRouteBuilder extends GroovyRouteBuilder {
 	public void configure() {
-		from('activemq:queue.in').multicast().
-			to('activemq:queue.one',
-			   'activemq:queue.two')
+		from('activemq:queue.in').
+		choice()
+			.when(groovy("request.body %3 == 0")).to('activemq:queue.three')
+			.when(groovy("request.body %2 == 0")).to('activemq:queue.two')
+			.otherwise().to('activemq:queue.one')
 	}
 }
