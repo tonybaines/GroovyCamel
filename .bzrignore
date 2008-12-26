@@ -4,3 +4,4 @@ stacktrace.log
 GroovyCamel.launch
 GroovyCamel.tmproj
 test/reportS
+web-app/WEB-INF/classes

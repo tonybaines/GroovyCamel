@@ -2,7 +2,7 @@ import org.apache.camel.language.groovy.GroovyRouteBuilder
 
 import static org.apache.camel.builder.script.ScriptBuilder.*;
 
-public class MyRouteBuilder extends GroovyRouteBuilder {
+public class MyRouteBuilderService extends GroovyRouteBuilder {
 	public void configure() {
 		from('activemq:queue.in').
 		choice()

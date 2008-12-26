@@ -10,9 +10,55 @@
 	<classpathentry kind="src" path="test/integration"/>
 	<classpathentry kind="src" path="test/unit"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/apache-camel-1.5.0.jar"/>
-	<classpathentry kind="lib" path="lib/camel-spring-1.5.0.jar"/>
-	<classpathentry kind="lib" path="lib/camel-script-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/apache-camel-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-amqp-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-atom-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-bam-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-core-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-csv-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-cxf-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-flatpack-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-ftp-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-groovy-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-guice-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-hamcrest-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-hl7-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-http-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-ibatis-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-irc-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jaxb-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jcr-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jdbc-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jetty-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jhc-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jing-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jms-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-josql-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jpa-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-juel-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-jxpath-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-mail-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-mina-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-msv-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-ognl-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-osgi-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-quartz-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-rmi-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-saxon-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-scala-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-script-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-spring-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-spring-integration-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-sql-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-stream-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-stringtemplate-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-swing-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-uface-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-velocity-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xmlbeans-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xmpp-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xstream-1.5.0.jar"/>
+	<classpathentry kind="lib" path="camel-spring.xsd"/>
 	<classpathentry kind="var" path="GRAILS_HOME/ant/lib/ant.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-junit.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-launcher.jar"/>
