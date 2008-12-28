@@ -50,5 +50,6 @@
 	      <pre><g:each in="${exception.stackTraceLines}">${it.encodeAsHTML()}<br/></g:each></pre>
 	    </div>
 	</g:if>
+	<debug:info/>
   </body>
 </html>

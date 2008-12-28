@@ -48,6 +48,7 @@ log4j {
     appender.'stacktraceLog.layout.ConversionPattern'='[%r] %c{2} %m%n'
     appender.'stacktraceLog.File'="stacktrace.log"
     rootLogger="error,stdout"
+    logger.grails.app.filters='info'
     logger {
         grails="error"
         StackTrace="error,stacktraceLog"
