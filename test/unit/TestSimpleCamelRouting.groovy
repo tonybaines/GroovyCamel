@@ -9,7 +9,7 @@ public class TestSimpleCamelRouting extends GroovyTestCase {
 
 
 	void setUp() {
-		RouteBuilder builder = new MyRouteBuilder()
+		RouteBuilder builder = new MyRouteBuilderService()
 		myCamelContext = new DefaultCamelContext();
 		myCamelContext.addRoutes(builder);
 		myCamelContext.start()

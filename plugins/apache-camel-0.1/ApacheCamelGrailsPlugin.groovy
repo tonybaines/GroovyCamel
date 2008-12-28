@@ -14,7 +14,11 @@ Brief description of the plugin.
     def documentation = "http://grails.org/ApacheCamel+Plugin"
 
     def doWithSpring = {
-        // TODO Implement runtime spring config (optional)
+        // Find all RouteBuilders in the default package
+        // and initialise the Camel context
+    	camelContext(org.apache.camel.spring.CamelContextFactoryBean) {
+		  packages = "default"
+		}
     }
    
     def doWithApplicationContext = { applicationContext ->

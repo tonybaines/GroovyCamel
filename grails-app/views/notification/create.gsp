@@ -1,3 +1,4 @@
+<%@ taglib prefix="g" uri="/web-app/WEB-INF/tld/grails.tld" %>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
