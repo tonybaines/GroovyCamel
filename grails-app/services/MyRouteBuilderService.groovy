@@ -9,10 +9,9 @@ public class MyRouteBuilderService extends GroovyRouteBuilder {
 	def queueUri3 = 'activemq:queue.three'
 	public void configure() {
 		from(inQueueUri).
-//		to(queueUri1)
 		choice()
-			.when(groovy("request.body %3 == 0")).to(queueUri3)
-			.when(groovy("request.body %2 == 0")).to(queueUri2)
+			.when(groovy("request.body.toInteger() %3 == 0")).to(queueUri3)
+			.when(groovy("request.body.toInteger() %2 == 0")).to(queueUri2)
 			.otherwise().to(queueUri1)
 	}
 }

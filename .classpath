@@ -57,6 +57,7 @@
 	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xmlbeans-1.5.0.jar"/>
 	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xmpp-1.5.0.jar"/>
 	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/camel-xstream-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.1/lib/groovy-engine.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/ant/lib/ant.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-junit.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-launcher.jar"/>
