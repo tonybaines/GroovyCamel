@@ -1,0 +1,13 @@
+<plugin name='apache-camel' version='0.3'>
+  <author>Tony Baines	</author>
+  <authorEmail>tony.baines.1@gmail.com</authorEmail>
+  <title>Integrate Apache Camel into Grails</title>
+  <description>Use the power of Apache Camel to implement the Enterprise Integration Patterns
+(EIP) in Grails applications.
+</description>
+  <documentation>http://grails.org/ApacheCamel+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+</plugin>
