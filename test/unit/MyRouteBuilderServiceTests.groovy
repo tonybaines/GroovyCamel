@@ -9,8 +9,8 @@ public class MyRouteBuilderServiceTests extends GroovyTestCase {
 		RouteBuilder builder = new MyRouteBuilderService()
 		builder.inQueueUri = 'direct:queue.in'
 		builder.queueUri1 = 'mock:queue.one'
-		builder. queueUri2 = 'mock:queue.two'
-		builder. queueUri3 = 'mock:queue.three'
+		builder.queueUri2 = 'mock:queue.two'
+		builder.queueUri3 = 'mock:queue.three'
 		myCamelContext = new DefaultCamelContext();
 		myCamelContext.addRoutes(builder);
 		myCamelContext.start()

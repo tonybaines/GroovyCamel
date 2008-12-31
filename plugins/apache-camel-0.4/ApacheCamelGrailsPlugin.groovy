@@ -1,5 +1,5 @@
 class ApacheCamelGrailsPlugin {
-    def version = 0.3
+    def version = 0.4
     def dependsOn = [:]
 
     def author = "Tony Baines	"

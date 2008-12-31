@@ -1,4 +1,4 @@
-<plugin name='apache-camel' version='0.3'>
+<plugin name='apache-camel' version='0.4'>
   <author>Tony Baines	</author>
   <authorEmail>tony.baines.1@gmail.com</authorEmail>
   <title>Integrate Apache Camel into Grails</title>
@@ -7,7 +7,7 @@
 </description>
   <documentation>http://grails.org/ApacheCamel+Plugin</documentation>
   <resources>
-    <resource>DataSource</resource>
     <resource>UrlMappings</resource>
+    <resource>DataSource</resource>
   </resources>
 </plugin>
