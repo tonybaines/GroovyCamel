@@ -10,29 +10,6 @@
 	<classpathentry kind="src" path="test/integration"/>
 	<classpathentry kind="src" path="test/unit"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/apache-camel-1.5.0.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/browserjs-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/bsh-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/freemarker-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/groovy-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jacl-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jaskell-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/java-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jawk-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jelly-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jep-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jexl-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jruby-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/js-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/judo-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/juel-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/jython-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/ognl-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/pnuts-jsr223.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/scheme-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/velocity-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/xpath-engine.jar"/>
-	<classpathentry kind="lib" path="plugins/apache-camel-0.3/lib/xslt-engine.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/ant/lib/ant.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-junit.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/lib/ant-launcher.jar"/>
@@ -107,5 +84,7 @@
 	<classpathentry kind="var" path="GRAILS_HOME/dist/grails-web-1.0.4.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME/dist/grails-webflow-1.0.4.jar"/>
 	<classpathentry kind="var" path="GRAILS_HOME"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.4/lib/apache-camel-1.5.0.jar"/>
+	<classpathentry kind="lib" path="plugins/apache-camel-0.4/lib/groovy-engine.jar"/>
 	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
 </classpath>
